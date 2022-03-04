@@ -53,4 +53,11 @@ LDA assumes that documents are composed of words that help determine the topics 
 Bag of Words is a representation of text that describe  the occurrence of words within a document. We just keep traak of word counts and disregard the grammatical details and the word order.
  
 
-
+#### 2.2 Modeling
+[genism.ldamodel's patameter](https://radimrehurek.com/gensim/models/ldamodel.html)
+- num_topics: The number of requested latent topics to be extracted from the training corpus.
+- chunksize: Number of documents to be used in each training chunk.
+- passes: Number of passes through the corpus during training.
+- iterations:  Maximum number of iterations through the corpus when inferring the topic distribution of a corpus.
+- eval_every: Log perplexity is estimated every that many updates. 
+- id2word: Mapping from word IDs to words
