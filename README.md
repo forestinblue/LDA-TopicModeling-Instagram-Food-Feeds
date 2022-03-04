@@ -44,9 +44,13 @@ def save_processed_data(processed_data):
 ```
 
 ### 2. LDA Topic Modeling
+>[LDA](https://www.mygreatlearning.com/blog/understanding-latent-dirichlet-allocation/)
+
+LDA assumes that documents are composed of words that help determine the topics and maps documents to a list of topics by assigning each word in the document to different topics.
 #### 2.1 Bag of Words
 ![bow01](https://user-images.githubusercontent.com/90318043/156478164-98807c0a-b9d4-410e-acca-c6ef139d8fcc.jpg)
 
 Bag of Words is a representation of text that describe  the occurrence of words within a document. We just keep traak of word counts and disregard the grammatical details and the word order.
  
+
 
