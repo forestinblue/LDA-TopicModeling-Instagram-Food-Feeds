@@ -61,3 +61,8 @@ Bag of Words is a representation of text that describe  the occurrence of words 
 - iterations:  Maximum number of iterations through the corpus when inferring the topic distribution of a corpus.
 - eval_every: Log perplexity is estimated every that many updates. 
 - id2word: Mapping from word IDs to words
+
+### 3. Visualization
+
+>[what is pyLDAvis's λ (korean version)](https://lovit.github.io/nlp/2018/09/27/pyldavis_lda/)
+ 
