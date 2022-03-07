@@ -55,6 +55,7 @@ Bag of Words is a representation of text that describe  the occurrence of words 
 
 #### 2.2 Modeling
 [genism.ldamodel's patameter](https://radimrehurek.com/gensim/models/ldamodel.html)
+>[genism.ldamodel's patameter(korean version)](https://coredottoday.github.io/2018/09/17/%EB%AA%A8%EB%8D%B8-%ED%8C%8C%EB%9D%BC%EB%AF%B8%ED%84%B0-%ED%8A%9C%EB%8B%9D/)
 - num_topics: The number of requested latent topics to be extracted from the training corpus.
 - chunksize: Number of documents to be used in each training chunk.
 - passes: Number of passes through the corpus during training.
@@ -65,4 +66,4 @@ Bag of Words is a representation of text that describe  the occurrence of words 
 ### 3. Visualization
 
 >[what is pyLDAvis's λ (korean version)](https://lovit.github.io/nlp/2018/09/27/pyldavis_lda/)
- 
+ ![image](https://user-images.githubusercontent.com/90318043/156956579-d49578a9-089b-4933-938b-207072ccf4d6.png)
